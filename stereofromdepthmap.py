@@ -5,8 +5,8 @@ from numpy import interp
 blackoffset = 340 # define the pixel width of the background
 whiteoffset = 230 # define the pixel width of the foreground
 
-fullhd = (1920, 1080)
-OUTPUT_SIZE = fullhd
+hd_resolution = (1920, 1080)
+OUTPUT_SIZE = hd_resolution
 
 # creating an image object
 stereo = Image.open(r"Assets\train.jpg").resize(OUTPUT_SIZE)
