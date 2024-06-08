@@ -8,7 +8,7 @@ whiteoffset = 230 # define the pixel width of the foreground
 fullhd = (1920, 1080)
 OUTPUT_SIZE = fullhd
 
-# creating a image object
+# creating an image object
 stereo = Image.open(r"Assets\train.jpg").resize(OUTPUT_SIZE)
 reference = Image.open(r"Assets\noise.jpg").resize(OUTPUT_SIZE)
 edit = reference.load()
