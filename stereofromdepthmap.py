@@ -5,7 +5,7 @@ from numpy import interp
 blackoffset = 340 # define the pixel width of the background
 whiteoffset = 230 # define the pixel width of the foreground
 
-fullhd = (1920, 1080)
+full_hd = (1920, 1080)
 OUTPUT_SIZE = fullhd
 
 # creating an image object
